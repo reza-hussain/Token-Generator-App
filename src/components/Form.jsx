@@ -39,7 +39,7 @@ const Form = ({redTokens, setRedTokens, blueTokens, setBlueTokens}) => {
         <Input sx={{width: '80%'}} color="primary" placeholder="Number of Red Tokens" variant="outlined" id="redNum" type="number" onChange={(e) => setRedNum(e.target.value)}/>
         
 
-        <Input sx={{width: '80%'}} color="primary" placeholder="Prefix for Blue Tokens" variant="outlined" id="redPrefix" type="text" onChange={(e) => setRedPrefix(e.target.value)}/>
+        <Input sx={{width: '80%'}} color="primary" placeholder="Prefix for Red Tokens" variant="outlined" id="redPrefix" type="text" onChange={(e) => setRedPrefix(e.target.value)}/>
 
         <Input sx={{width: '80%'}} color="primary" placeholder="Number of Red Rows" variant="outlined" id="redRow"type="number" onChange={(e) => setRedRow(e.target.value)} />
         
